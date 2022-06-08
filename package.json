@@ -1,0 +1,16 @@
+{
+  "name": "odyssey-voyage-i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eleighbachman/flyby-router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eleighbachman/flyby-router/issues"
+  },
+  "homepage": "https://github.com/eleighbachman/flyby-router#readme"
+}
