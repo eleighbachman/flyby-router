@@ -1,5 +1,4 @@
 server:
-  listen: https://flyby-router.herokuapp.com/
   endpoint: /graphql
   #
   # CORS (Cross Origin Resource Sharing)
