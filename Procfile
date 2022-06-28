@@ -1,1 +1,1 @@
-web: sh -c 'curl -sSL https://router.apollo.dev/download/nix/latest | sh && echo $APOLLO_KEY && ./router --config config.yaml'
+web: sh -c 'curl -sSL https://router.apollo.dev/download/nix/latest | sh && APOLLO_KEY=$APOLLO_KEY APOLLO_GRAPH_REF=$APOLLO_GRAPH_REF ./router --config config.yaml'
