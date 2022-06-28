@@ -1,5 +1,5 @@
 server:
-  endpoint: /graphql
+  listen: 127.0.0.1
   #
   # CORS (Cross Origin Resource Sharing)
   #
