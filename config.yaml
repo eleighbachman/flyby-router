@@ -1,5 +1,4 @@
 server:
-  listen: 0.0.0.0:"${PORT}"
   #
   # CORS (Cross Origin Resource Sharing)
   #
