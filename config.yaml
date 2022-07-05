@@ -19,3 +19,6 @@ headers:
     accounts:
       - propagate:
           named: "Authorization"
+override_subgraph_url:
+  locations: http://localhost:4001
+  reviews: http://localhost:4001
