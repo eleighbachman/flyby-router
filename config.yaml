@@ -2,7 +2,7 @@ server:
   # Set to 0.0.0.0 to circumvent Heroku error
   listen: "0.0.0.0:${PORT}"
   # Don't see any instruction to introspect
-  # introspection: false
+  introspection: true
   # Turn off landing page
   # landing_page: false
   #
