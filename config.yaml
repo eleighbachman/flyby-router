@@ -2,7 +2,7 @@ server:
   # Set to 0.0.0.0 to circumvent Heroku error
   listen: "0.0.0.0:${PORT}"
   # Don't see any instruction to introspect
-  introspection: false
+  # introspection: false
   # Turn off landing page
   # landing_page: false
   #
@@ -21,4 +21,4 @@ headers:
           named: "Authorization"
 override_subgraph_url:
   locations: http://localhost:4001
-  reviews: http://localhost:4001
+  reviews: http://localhost:4002
