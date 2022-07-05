@@ -5,15 +5,7 @@ server:
   introspection: true
   # Turn off landing page
   # landing_page: false
-  #
-  # CORS (Cross Origin Resource Sharing)
-  #
-  cors:
-    # List of accepted origins
-    origins:
-      - https://studio.apollographql.com
 
-    allow_headers: [Content-Type, Authorization]
 override_subgraph_url:
   locations: "http://localhost:4001"
   reviews: "http://localhost:4002"
