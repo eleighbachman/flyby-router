@@ -1,4 +1,6 @@
 server:
   # Set to 0.0.0.0 to circumvent Heroku error
   listen: "0.0.0.0:${PORT}"
+override_subgraph_url:
+  locations: https://flyby-locations-subbie.herokuapp.com/
 
