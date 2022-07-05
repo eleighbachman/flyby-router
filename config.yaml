@@ -1,18 +1,4 @@
 server:
   # Set to 0.0.0.0 to circumvent Heroku error
   listen: "0.0.0.0:${PORT}"
-  # Don't see any instruction to introspect
-  introspection: true
-  # Turn off landing page
-  # landing_page: false
-  cors:
-    # List of accepted origins
-    origins:
-      - https://studio.apollographql.com
-      - http://localhost:4001
-      - http://localhost:4002
 
-
-override_subgraph_url:
-  locations: http://localhost:4001
-  reviews: http://localhost:4002
