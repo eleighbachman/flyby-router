@@ -6,11 +6,11 @@ server:
   # Turn off landing page
   # landing_page: false
   cors:
-  # List of accepted origins
-  origins:
-    - https://studio.apollographql.com
-    - http://localhost:4001
-    - http://localhost:4002
+    # List of accepted origins
+    origins:
+      - https://studio.apollographql.com
+      - http://localhost:4001
+      - http://localhost:4002
 
 
 override_subgraph_url:
